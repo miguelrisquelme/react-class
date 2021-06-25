@@ -1,0 +1,50 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.form__textarea {
+  height: 150px;
+}
+
+.form__button {
+  cursor: pointer;
+
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1em;
+
+  border: 1px #eee solid;
+  background-color: #ccc;
+  color: #000;
+  transition: 0.5s;
+}
+
+.form__button:hover {
+  color: #fff;
+  background-color: coral;
+}
+
+.form__button:focus {
+  color: #fff;
+  background-color: coral;
+}
+
+.form__input,
+.form__textarea,
+.form__button {
+  width: 100%;
+  margin: 5px 0px;
+  padding: 20px 10px;
+}
+
+.form__input:focus,
+.form__textarea:focus,
+.form__button:focus {
+  outline: 1px dotted #000;
+}

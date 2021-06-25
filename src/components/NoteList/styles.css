@@ -1,0 +1,6 @@
+.noteList__container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: auto;
+  gap: 15px;
+}
