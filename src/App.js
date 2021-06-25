@@ -2,6 +2,7 @@ import React from "react";
 
 import NoteList from "./components/NoteList";
 import SignUpForm from "./components/SignUpForm";
+import CategoryList from "./components/CategoryList";
 
 export default class App extends React.Component {
   constructor() {
@@ -28,6 +29,7 @@ export default class App extends React.Component {
     return (
       <>
         <SignUpForm createNote={this.createNote.bind(this)} />
+        <CategoryList />
         <NoteList notes={this.notes} deleteNote={this.deleteNote.bind(this)} />
       </>
     );
