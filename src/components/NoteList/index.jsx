@@ -12,7 +12,13 @@ export default class NoteList extends React.Component {
     return (
       <ul className="noteList__container">
         {this.props.notes.map((note, index) => (
-          <Note key={index} title={note.title} description={note.description} />
+          <Note
+            deleteNote={this.props.deleteNote}
+            key={index}
+            index={index}
+            title={note.title}
+            description={note.description}
+          />
         ))}
       </ul>
     );
