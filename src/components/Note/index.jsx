@@ -24,6 +24,7 @@ export default class Note extends React.Component {
               onClick={this.delete.bind(this)}
             />
           </header>
+          <small className="note__category">{this.props.category}</small>
           <p className="note__description">
             {!this.props.description ? "Sem Descrição" : this.props.description}
           </p>

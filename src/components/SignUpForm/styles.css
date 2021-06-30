@@ -35,9 +35,7 @@
   background-color: coral;
 }
 
-.form__input,
-.form__textarea,
-.form__button {
+.form__basics {
   width: 100%;
   margin: 5px 0px;
   padding: 20px 10px;

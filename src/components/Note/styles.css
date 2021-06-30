@@ -27,3 +27,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.note__category {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
